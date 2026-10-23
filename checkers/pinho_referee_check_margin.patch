@@ -1,0 +1,31 @@
+Margin variant of R. Pinho's referee_check.py (not vendored here).
+
+Upstream: https://github.com/rpinho/c86-trace-certificate, commit 116a58ff99681226ce6299d4a02eeff1e7d3c5c7,
+file referee_check.py (sha256 8e30a480031338ccc68d028f138ad27d8b4e81d58409f89e77e4adc56d77ae1a).
+That file is Copyright (c) 2026 Ricardo Pinho, MIT License (see LICENSE in that repository).
+
+The patch changes only the E5 test: each bisection piece must have a certified lower bound
+greater than MARGIN (default 1/10000000, override with the environment variable C86_MARGIN="p/q")
+instead of greater than 0. ALL_OK True then certifies f >= 1/10000000 on the whole support.
+Apply in a checkout of that commit with:  git apply /path/to/pinho_referee_check_margin.patch
+
+--- a/referee_check.py
++++ b/referee_check.py
+@@ -25,6 +25,8 @@
+ import sympy as sp
+ 
+ PREC = 128
++import os
++MARGIN = fmpq(*[int(v) for v in os.environ.get('C86_MARGIN', '1/10000000').split('/')])  # PATCH
+ flint.ctx.prec = PREC
+ X_ = sp.Symbol('x')
+ 
+@@ -206,7 +208,7 @@
+             fails.append(('budget exhausted', float(s), float(t)))
+             break
+         lb = lower_bound(s, t)
+-        if lb > 0:
++        if lb > arb(MARGIN):   # PATCH: certify f >= MARGIN, not just f > 0
+             n_ok += 1
+             v = float(lb.lower())
+             minlb = v if minlb is None else min(minlb, v)

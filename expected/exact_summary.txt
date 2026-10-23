@@ -1,0 +1,20 @@
+ok   edges strictly increasing
+ok   len(densities) == len(edges) - 1
+ok   densities >= 0, weights b >= 0
+ok   len(b) == len(A)
+ok   min S > 0
+ok   bound == T/m exactly
+ok   sum b deg < m (strict)
+ok   Sigma = [min S, max(max S, min S + 5)] contains S, length > 4, inside (0, oo)
+polynomials 19 (max degree 7), cells 1196, nonzero 633
+support [11/200, 519/100]   Sigma [11/200, 519/100]
+m = 199999999999999703/200000000000000000
+T = 144679917840593158601/80000000000000000000
+bound = T/m = 144679917840593158601/79999999999999881200 = 1.8084989730074...
+sum b deg / m = 0.8354240...
+1.8117251 - bound        = 0.0032261269925...
+[Pin26] exact - bound    = 0.0032261221461...
+gap to 1.80203: 0.009695 -> 0.006468...
+bound < 1.8084990: True
+ALL EXACT CHECKS PASS
+exit 0

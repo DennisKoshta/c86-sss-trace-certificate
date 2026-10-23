@@ -1,0 +1,54 @@
+exact checks ok {
+ "certificate": "certificate/c86_A19d7_robust_1.8084990.json",
+ "support_min": "11/200",
+ "support_max": "519/100",
+ "mass": "199999999999999703/200000000000000000",
+ "trace": "144679917840593158601/80000000000000000000",
+ "bound_exact": "144679917840593158601/79999999999999881200",
+ "bound_decimal": 1.8084989730074172,
+ "bound_matches_claim": true,
+ "bound_le_1.8117251": true,
+ "sum_b_deg_over_mass": 0.8354240558969582
+}
+   {'Q': 'x - 2', 'irreducible': True, 'deg': 1, 'real_roots': 1, 'lc': 1}
+   {'Q': 'x - 1', 'irreducible': True, 'deg': 1, 'real_roots': 1, 'lc': 1}
+   {'Q': 'x', 'irreducible': True, 'deg': 1, 'real_roots': 1, 'lc': 1}
+   {'Q': 'x**2 - 4*x + 1', 'irreducible': True, 'deg': 2, 'real_roots': 2, 'lc': 1}
+   {'Q': 'x**2 - 4*x + 2', 'irreducible': True, 'deg': 2, 'real_roots': 2, 'lc': 1}
+   {'Q': 'x**2 - 3*x + 1', 'irreducible': True, 'deg': 2, 'real_roots': 2, 'lc': 1}
+   {'Q': 'x**3 - 6*x**2 + 9*x - 3', 'irreducible': True, 'deg': 3, 'real_roots': 3, 'lc': 1}
+   {'Q': 'x**3 - 6*x**2 + 9*x - 1', 'irreducible': True, 'deg': 3, 'real_roots': 3, 'lc': 1}
+   {'Q': 'x**3 - 5*x**2 + 6*x - 1', 'irreducible': True, 'deg': 3, 'real_roots': 3, 'lc': 1}
+   {'Q': 'x**4 - 7*x**3 + 13*x**2 - 7*x + 1', 'irreducible': True, 'deg': 4, 'real_roots': 4, 'lc': 1}
+   {'Q': 'x**4 - 7*x**3 + 14*x**2 - 8*x + 1', 'irreducible': True, 'deg': 4, 'real_roots': 4, 'lc': 1}
+   {'Q': 'x**5 - 9*x**4 + 26*x**3 - 29*x**2 + 11*x - 1', 'irreducible': True, 'deg': 5, 'real_roots': 5, 'lc': 1}
+   {'Q': 'x**5 - 9*x**4 + 27*x**3 - 32*x**2 + 13*x - 1', 'irreducible': True, 'deg': 5, 'real_roots': 5, 'lc': 1}
+   {'Q': 'x**5 - 9*x**4 + 27*x**3 - 31*x**2 + 12*x - 1', 'irreducible': True, 'deg': 5, 'real_roots': 5, 'lc': 1}
+   {'Q': 'x**5 - 9*x**4 + 28*x**3 - 35*x**2 + 15*x - 1', 'irreducible': True, 'deg': 5, 'real_roots': 5, 'lc': 1}
+   {'Q': 'x**6 - 11*x**5 + 43*x**4 - 73*x**3 + 53*x**2 - 15*x + 1', 'irreducible': True, 'deg': 6, 'real_roots': 6, 'lc': 1}
+   {'Q': 'x**6 - 11*x**5 + 43*x**4 - 72*x**3 + 51*x**2 - 14*x + 1', 'irreducible': True, 'deg': 6, 'real_roots': 6, 'lc': 1}
+   {'Q': 'x**7 - 13*x**6 + 63*x**5 - 143*x**4 + 157*x**3 - 78*x**2 + 16*x - 1', 'irreducible': True, 'deg': 7, 'real_roots': 7, 'lc': 1}
+   {'Q': 'x**7 - 13*x**6 + 64*x**5 - 150*x**4 + 172*x**3 - 89*x**2 + 18*x - 1', 'irreducible': True, 'deg': 7, 'real_roots': 7, 'lc': 1}
+  E4 {'Q': 'x - 2', 'lower': 2.0000000016567193e-06, 'upper': 2.0000000016567193e-06, 'positive': True}
+  E4 {'Q': 'x - 1', 'lower': 2.000000000790832e-06, 'upper': 2.000000000790832e-06, 'positive': True}
+  E4 {'Q': 'x', 'lower': 2.0000000011119653e-06, 'upper': 2.0000000011119653e-06, 'positive': True}
+  E4 {'Q': 'x**2 - 4*x + 1', 'lower': 2.0000000088068005e-06, 'upper': 2.0000000088068005e-06, 'positive': True}
+  E4 {'Q': 'x**2 - 4*x + 2', 'lower': 2.0000000006550346e-06, 'upper': 2.0000000006550346e-06, 'positive': True}
+  E4 {'Q': 'x**2 - 3*x + 1', 'lower': 1.999999999063089e-06, 'upper': 1.999999999063089e-06, 'positive': True}
+  E4 {'Q': 'x**3 - 6*x**2 + 9*x - 3', 'lower': 0.08851549966153563, 'upper': 0.08851549966153563, 'positive': True}
+  E4 {'Q': 'x**3 - 6*x**2 + 9*x - 1', 'lower': 0.1316089267992921, 'upper': 0.1316089267992921, 'positive': True}
+  E4 {'Q': 'x**3 - 5*x**2 + 6*x - 1', 'lower': 1.9999999955298695e-06, 'upper': 1.9999999955298695e-06, 'positive': True}
+  E4 {'Q': 'x**4 - 7*x**3 + 13*x**2 - 7*x + 1', 'lower': 1.9999999987253784e-06, 'upper': 1.9999999987253784e-06, 'positive': True}
+  E4 {'Q': 'x**4 - 7*x**3 + 14*x**2 - 8*x + 1', 'lower': 2.000000002285955e-06, 'upper': 2.000000002285955e-06, 'positive': True}
+  E4 {'Q': 'x**5 - 9*x**4 + 26*x**3 - 29*x**2 + 11*x - 1', 'lower': 1.9999999884782906e-06, 'upper': 1.9999999884782906e-06, 'positive': True}
+  E4 {'Q': 'x**5 - 9*x**4 + 27*x**3 - 32*x**2 + 13*x - 1', 'lower': 1.999999978044481e-06, 'upper': 1.999999978044481e-06, 'positive': True}
+  E4 {'Q': 'x**5 - 9*x**4 + 27*x**3 - 31*x**2 + 12*x - 1', 'lower': 1.9999999904497365e-06, 'upper': 1.9999999904497365e-06, 'positive': True}
+  E4 {'Q': 'x**5 - 9*x**4 + 28*x**3 - 35*x**2 + 15*x - 1', 'lower': 1.999999984073855e-06, 'upper': 1.999999984073855e-06, 'positive': True}
+  E4 {'Q': 'x**6 - 11*x**5 + 43*x**4 - 73*x**3 + 53*x**2 - 15*x + 1', 'lower': 0.12220111531685818, 'upper': 0.12220111531685818, 'positive': True}
+  E4 {'Q': 'x**6 - 11*x**5 + 43*x**4 - 72*x**3 + 51*x**2 - 14*x + 1', 'lower': 0.15650107994459864, 'upper': 0.15650107994459864, 'positive': True}
+  E4 {'Q': 'x**7 - 13*x**6 + 63*x**5 - 143*x**4 + 157*x**3 - 78*x**2 + 16*x - 1', 'lower': 2.0000001005263825e-06, 'upper': 2.0000001005263825e-06, 'positive': True}
+  E4 {'Q': 'x**7 - 13*x**6 + 64*x**5 - 150*x**4 + 172*x**3 - 89*x**2 + 18*x - 1', 'lower': 2.0000000915434812e-06, 'upper': 2.0000000915434812e-06, 'positive': True}
+E4 ok
+E5 {'cells': 633, 'subintervals_proved': 16260, 'min_certified_lower_bound': 4.3544732849293165e-10, 'max_depth': 7, 'failures': [], 'n_failures': 0}
+ALL_OK True time 271.51393127441406
+exit 0
